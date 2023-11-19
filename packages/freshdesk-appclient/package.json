@@ -1,0 +1,37 @@
+{
+  "name": "@byteassign/freshdesk-appclient",
+  "version": "0.1.0-alpha.1c",
+  "private": false,
+  "author": "ByteAssign",
+  "description": "A library declaring the types available within the Freshdesk application client.",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "appclient",
+    "freshdesk",
+    "freshdesk-appclient",
+    "freshdesk-client",
+    "freshdesk-api",
+    "types",
+    "typings",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byteassign/freshworks.git",
+    "directory": "packages/freshdesk-appclient"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "files": [
+    "./lib",
+    "README.md"
+  ],
+  "sideEffects": false
+}

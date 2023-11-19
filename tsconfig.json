@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "lib": ["dom"],
+    "module": "esnext",
+    "target": "es6",    
+    "composite": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noEmit": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "noErrorTruncation": false,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "paths": {
+      "@byteassign/freshdesk-appclient": [
+        "packages/freshdesk-appclient/src"
+      ],
+      "@byteassign/freshdesk-appclient/*": [
+        "packages/freshdesk-appclient/src/*"
+      ],
+      "@byteassign/freshdesk-react-appclient": [
+        "packages/freshdesk-appclient-react/src"
+      ],
+      "@byteassign/freshdesk-react-appclient/*": [
+        "packages/freshdesk-appclient-react/src/*"
+      ],
+    },
+    "types": [
+      "node",
+      "react"
+    ]
+  },
+  "exclude": [
+    "**/node_modules"
+  ]
+}

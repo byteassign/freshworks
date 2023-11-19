@@ -1,0 +1,14 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"],
+    "plugins": [
+        ["babel-plugin-module-resolver",
+          {
+            "alias": {
+              "@byteassign/freshdesk-appclient": "./packages/freshdesk-appclient/src",
+              "@byteassign/freshdesk-react-appclient": "./packages/freshdesk-react-appclient/src"
+            },
+            "root": ["./"] 
+          }
+        ]
+      ]
+}

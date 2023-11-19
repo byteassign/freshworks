@@ -1,0 +1,27 @@
+{
+  "name": "freshwork-monorepo",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byteassign/freshworks.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
+    "@nx/js": "^17.0.3",
+    "@types/node": "^20.8.10",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "lerna": "^7.4.2",
+    "nx": "17.0.3",
+    "typescript": "^5.2.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npx lerna run --concurrency 8 --scope \"@byteassign/*\" build --skip-nx-cache"
+  }
+}

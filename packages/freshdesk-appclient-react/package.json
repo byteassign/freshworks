@@ -1,0 +1,38 @@
+{
+  "name": "@byteassign/freshdesk-appclient-react",
+  "version": "0.1.0-alpha.1c",
+  "private": false,
+  "author": "ByteAssign",
+  "description": "A library providing react components for the development of Freshdesk applications.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "keywords": [
+    "appclient",
+    "freshdesk",
+    "freshdesk-appclient",
+    "freshdesk-client",    
+    "react",
+    "freshdesk-react"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byteassign/freshworks.git",
+    "directory": "packages/freshdesk-appclient-react"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@byteassign/freshdesk-appclient": "^0.1.0-alpha.1c",
+    "@types/react": "^18.2.35",
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "files": [
+    "./lib"
+  ]
+}

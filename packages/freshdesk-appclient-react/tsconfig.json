@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "./lib",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/**/*.ts*"
+  ],
+  "references": [
+    {
+      "path": "../freshdesk-appclient/tsconfig.json"
+    }
+  ]
+}
