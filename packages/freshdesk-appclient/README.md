@@ -1,15 +1,15 @@
 <!-- markdownlint-disable-next-line -->
 <p align="center">
-  <a href="https://mui.com/material-ui/" rel="noopener" target="_blank"><img width="150" height="133" src="https://avatars.githubusercontent.com/u/149618618?s=400&u=d9dd6fbbcbedc26f6dbd92d1488b8fdbf1cc79ba&v=4" alt="Material UI logo"></a>
+  <a href="https://mui.com/material-ui/" rel="noopener" target="_blank"><img width="150" height="133" src="https://avatars.githubusercontent.com/u/149618618?s=400&u=cf62f9140145a9401cd04bbcdd1d1b4a3fd49dcf&v=4" alt="Material UI logo"></a>
 </p>
 
 <h1 align="center">Byteassign
 <div style="font-size:60%">freshdesk appclient</div></h1>
 
-Byteassign's Freshdesk appclient is a library designed to assist in the development of front-end Freshdesk applications. It primary provides types for the various components found within the Freshdesk eco-system.
+Byteassign's Freshdesk appclient is a library designed to assist in the development of front-end Freshdesk applications. It primarily provides types for the various components found within the Freshdesk eco-system.
 
-> **Important**  
-> @byteassign and its packages are not affiliated with Freshworks in any way.
+> [!IMPORTANT]  
+> @byteassign is not affiliated with Freshworks in any way.
 
 ## Installation
 
